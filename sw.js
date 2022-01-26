@@ -401,3 +401,5 @@ self.addEventListener("fetch", event =>
 
 	event.respondWith(responsePromise);
 });
+
+console.log(`[BF] Utilizando SW.js`)
